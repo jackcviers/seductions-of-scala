@@ -1,0 +1,544 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/}example...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: ConcurrentThought#example_2.10;2.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.1.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.1.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.1.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.1.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.10;2.1.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.10;2.1.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-remote_2.10;2.1.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.1.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.5.8.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.5.8.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.5.8.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.5.8.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.5.8.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.0.M5b ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.0.M5b {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/deanwampler/.ivy2/local/org.scalatest/scalatest_2.10/2.0.M5b/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.10;2.0.M5b[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.10;2.0.M5b[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom (2.0.M5b)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.0.M5b!scalatest_2.10.pom(pom.original) (75ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /Users/deanwampler/.ivy2/local/org.scalatest/scalatest_2.10/2.0.M5b/jars/scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.0.M5b in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scala-lang#scala-library;2.10.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.1.2->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.typesafe.akka#akka-actor_2.10;2.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->io.netty#netty;3.5.8.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.1.2->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->com.typesafe.akka#akka-remote_2.10;2.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.0.M5b->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->org.scalatest#scalatest_2.10;2.0.M5b [test->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.2 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ConcurrentThought#example_2.10;2.0->junit#junit;4.10 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for ConcurrentThought#example_2.10;2.0 [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/ConcurrentThought/example_2.10/2.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.1.2!akka-actor_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.1.2!akka-remote_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.0!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.5.8.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.0.M5b/scalatest_2.10-2.0.M5b.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.0.M5b!scalatest_2.10.jar (6446ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 401ms :: artifacts dl 6462ms[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 compile produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 runtime produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 test produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 provided produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 optional produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 compile-internal produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 runtime-internal produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 test-internal produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 plugin produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 sources produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 docs produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for ConcurrentThought#example_2.10;2.0 pom produced in /Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/resolution-cache/reports/ConcurrentThought-example_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (401ms resolve - 6462ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

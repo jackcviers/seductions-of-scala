@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mShapesSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCircle[0m[0m
+[0m[[0minfo[0m] [0m[32m- rejects a negative radius[0m[0m
+[0m[[0minfo[0m] [0m[32m- knows its area[0m[0m
+[0m[[0minfo[0m] [0m[32mRectangle[0m[0m
+[0m[[0minfo[0m] [0m[32m- rejects a negative height[0m[0m
+[0m[[0minfo[0m] [0m[32m- rejects a negative width[0m[0m
+[0m[[0minfo[0m] [0m[32m- knows its area[0m[0m
+[0m[[0minfo[0m] [0m[32mTriangle[0m[0m
+[0m[[0minfo[0m] [0m[32m- knows its area[0m[0m

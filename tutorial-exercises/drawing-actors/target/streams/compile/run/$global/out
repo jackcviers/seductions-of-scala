@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mRunning shapes.ShapesDrawingDriver [0m
+[0m[[0mdebug[0m] [0mStarting sandboxed run...[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/Documents/Presentations/SeductionsOfScala/tutorial-exercises/drawing-actors/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.sbt/0.12.3/boot/scala-2.10.2/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/bundles/akka-actor_2.10-2.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.ivy2/cache/com.typesafe/config/bundles/config-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/bundles/akka-remote_2.10-2.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.ivy2/cache/io.netty/netty/bundles/netty-3.5.8.Final.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/deanwampler/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
+[0m[[0mdebug[0m] [0m	Thread run-main exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread DrawingActorSystem-akka.actor.default-dispatcher-4 to exit[0m
+[0m[[0mdebug[0m] [0m	Thread DrawingActorSystem-akka.actor.default-dispatcher-4 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread DrawingActorSystem-scheduler-1 to exit[0m
+[0m[[0mdebug[0m] [0m	Thread DrawingActorSystem-scheduler-1 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread DrawingActorSystem-akka.actor.default-dispatcher-3 to exit[0m
+[0m[[0mdebug[0m] [0m	Thread DrawingActorSystem-akka.actor.default-dispatcher-3 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread DrawingActorSystem-akka.actor.default-dispatcher-2 to exit[0m
+[0m[[0mdebug[0m] [0m	Thread DrawingActorSystem-akka.actor.default-dispatcher-2 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread DrawingActorSystem-akka.actor.default-dispatcher-5 to exit[0m
+[0m[[0mdebug[0m] [0m	Thread DrawingActorSystem-akka.actor.default-dispatcher-5 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
