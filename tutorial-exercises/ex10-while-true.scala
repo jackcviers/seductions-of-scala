@@ -1,3 +1,4 @@
+object whileTrueEx extends App {
 // Exercise 10: Implement Your Own whileTrue Control
 //
 // Here is the declaration of the "DSL" function we want:
@@ -11,18 +12,21 @@
 
 // We'll use it this way:
 
-var accumulator = List[Int]()  // non-FP hack :)
-var i = 0
-whileTrue(i < 10) {
-  // For mutable lists, you can use this "+=" trick:
-  accumulator ::= i
-  i += 1
+//////////////////////////////////////////////////////////
+// var accumulator = List[Int]()  // non-FP hack :)     //
+// var i = 0                                            //
+// whileTrue(i < 10) {                                  //
+//   // For mutable lists, you can use this "+=" trick: //
+//   accumulator ::= i                                  //
+//   i += 1                                             //
+// }                                                    //
+//                                                      //
+// import CheapTests._                                  //
+//                                                      //
+// // Why the call to reverse??                         //
+// accumulator.reverse is List(0,1,2,3,4,5,6,7,8,9)     //
+//                                                      //
+//                                                      //
+// println("Success!")                                  //
+//////////////////////////////////////////////////////////
 }
-
-import CheapTests._
-
-// Why the call to reverse??
-accumulator.reverse is List(0,1,2,3,4,5,6,7,8,9)
-
-
-println("Success!")

@@ -16,43 +16,52 @@
 /* ----------------- */
 /* Define Book here: */
 /* ----------------- */
+object classes extends App { 
+  class MutableBook(var author: String = "", var title: String, var publisher: String = "", var isbn: Long = 0L) {
+    override def toString = "MutableBook(author = %s, title = %s, publisher = %s, isbn = %d)".format(author, title, publisher, isbn)
+  }
+  class Book(val author: String = "", val title: String, val publisher: String = "", val isbn: Long = 0L) {
+    override def toString = "Book(author = %s, title = %s, publisher = %s, isbn = %d)".format(author, title, publisher, isbn)
 
-// Create some books and test the results.
+  }
 
-import CheapTests._
+  // Create some books and test the results.
 
-val mutableBook = new MutableBook(
-  "Charles Dickens", "A Tale of Two Cities", "Victorian Publishing", 1234567890)
+  import CheapTests._
 
-mutableBook.toString is 
+  val mutableBook = new MutableBook(
+    "Charles Dickens", "A Tale of Two Cities", "Victorian Publishing", 1234567890)
+
+  mutableBook.toString is
     "MutableBook(author = Charles Dickens, title = A Tale of Two Cities, publisher = Victorian Publishing, isbn = 1234567890)"
-mutableBook.author is "Charles Dickens"
-mutableBook.title is "A Tale of Two Cities"
-mutableBook.publisher is "Victorian Publishing"
-mutableBook.isbn is 1234567890
+  mutableBook.author is "Charles Dickens"
+  mutableBook.title is "A Tale of Two Cities"
+  mutableBook.publisher is "Victorian Publishing"
+  mutableBook.isbn is 1234567890
 
-mutableBook.author    = "Evelyn Waugh"
-mutableBook.title     = "Brideshead Revisited"
-mutableBook.publisher = "Interwar Books"
-mutableBook.isbn      = 1122334455
+  mutableBook.author = "Evelyn Waugh"
+  mutableBook.title = "Brideshead Revisited"
+  mutableBook.publisher = "Interwar Books"
+  mutableBook.isbn = 1122334455
 
-mutableBook.toString is 
+  mutableBook.toString is
     "MutableBook(author = Evelyn Waugh, title = Brideshead Revisited, publisher = Interwar Books, isbn = 1122334455)"
-mutableBook.author is "Evelyn Waugh"
-mutableBook.title is "Brideshead Revisited"
-mutableBook.publisher is "Interwar Books"
-mutableBook.isbn is 1122334455
+  mutableBook.author is "Evelyn Waugh"
+  mutableBook.title is "Brideshead Revisited"
+  mutableBook.publisher is "Interwar Books"
+  mutableBook.isbn is 1122334455
 
-val book = new Book(
-  "Jane Austin", "Pride and Prejudice", "Edwardian Novels", 1234554321)
-book.toString is 
+  val book = new Book(
+    "Jane Austin", "Pride and Prejudice", "Edwardian Novels", 1234554321)
+  book.toString is
     "Book(author = Jane Austin, title = Pride and Prejudice, publisher = Edwardian Novels, isbn = 1234554321)"
-book.author is "Jane Austin"
-book.title is "Pride and Prejudice"
-book.publisher is "Edwardian Novels"
-book.isbn is 1234554321
+  book.author is "Jane Austin"
+  book.title is "Pride and Prejudice"
+  book.publisher is "Edwardian Novels"
+  book.isbn is 1234554321
 
-// NOTE: It will fail with a compile error at this point, so comment out this line:
-book.author = "Emily Bronte"
+  // NOTE: It will fail with a compile error at this point, so comment out this line:
+//  book.author = "Emily Bronte"
 
-println("Success!")
+  println("Success!")
+}

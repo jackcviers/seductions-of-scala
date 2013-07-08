@@ -1,3 +1,4 @@
+object trees extends App {
 // Exercise 5: Tree Abstract Data Type
 //
 // We've already seen lists, which actually are implemented very much like
@@ -49,3 +50,4 @@ tree.toString is "T(T(T(Leaf(1),Leaf(2)),Leaf(3)),T(Leaf(4),Leaf(5)))"
 // Extra: Try implementing fold with foreach and vice-versa.
 
 println("Success!")
+}

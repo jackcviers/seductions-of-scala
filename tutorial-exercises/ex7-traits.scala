@@ -1,3 +1,4 @@
+object traits extends App {
 // Exercise 7: Traits as Mixins
 // We discussed mixins for a Queue class. This "exercise" is more
 // of a demonstration of what's possible, to save class time.
@@ -191,3 +192,4 @@ for (i <- -2 to 2) {
   sq5.put(i)  
 }  
 println(sq5)
+}

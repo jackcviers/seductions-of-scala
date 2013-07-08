@@ -1,3 +1,4 @@
+object functionTypes extends App {
 // Exercise 9: Covariant and Contravariant Typing with Functions.
 
 import CheapTests._
@@ -47,3 +48,4 @@ convertI2(i2)(f13).toString is "S3(S2(S1(1),),)"
 // convertI2(i2)(f31).toString is "S2(S1(1),2)"
 
 println("Success!")
+}

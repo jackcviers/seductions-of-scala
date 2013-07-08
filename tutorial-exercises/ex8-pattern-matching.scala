@@ -1,3 +1,4 @@
+object patternMatching extends App {
 // Exercise 8: Pattern Matching
 // Using the Rational case class from ex. 2, complete the following code 
 // to match separately on Rationals with 1.0 as the denominator, 
@@ -55,3 +56,4 @@ buff1.toString is "Rational(2,2)Rational(3,1)Something else: Some(hello!)Somethi
 // to implement a recursive function that reverses a list.
 
 println("Success!")
+}

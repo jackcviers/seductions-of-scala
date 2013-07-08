@@ -1,3 +1,4 @@
+object collections extends App {
 // Exercise 4: Collections and operations.
 // For this exercise, you'll want to open up the Scaladocs
 // for the immutable List and Map types.
@@ -109,3 +110,4 @@ uniques(List("Now", "is", "the", "Time")) is expected15
 uniques("Now") is List('N', 'o', 'w')
 
 println("Success!")
+}
