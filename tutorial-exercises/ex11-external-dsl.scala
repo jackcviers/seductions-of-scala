@@ -1,4 +1,3 @@
-object externalDsl extends App {
 // Exercise 11: An external DSL, using Scala's Parser Combinator Library.
 
 // Here's the grammar definition with productions from the slides.
@@ -25,4 +24,3 @@ val input =
 }"""
 
 RepeatParser.parseAll(RepeatParser.repeat, input)
-}
